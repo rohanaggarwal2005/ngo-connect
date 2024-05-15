@@ -1,0 +1,253 @@
+.container{
+    display: flex;
+    gap: 30px;
+    
+    margin: 0;
+    background-color: lightpink;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.search-bar{
+  
+   margin:20px ;
+    background:#fff ;
+    border-radius: 10px;
+   
+    width: 800px;
+    margin-left: 250px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    flex: 1;
+    height: 80px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+.result-bar ul{
+    padding-left: 10px;
+    
+}
+.result-bar ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-size: medium;
+   padding-left:5px ;
+   background-color: yellow;
+}
+.result-box  :hover{
+    background: lightpink;
+    
+}
+#input-box{
+    height: 40px;
+    width: 700px;
+    border-radius: 10px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.background-image img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 650px;
+}
+
+
+
+    .HOME{
+       
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .ABOUT h1{
+        margin-top:22px ;
+        font-family: "Jersey 10", sans-serif;
+        color: white ;
+        
+    }
+    .CONTACT h1{
+        margin-top: 22px;
+        font-family: "Jersey 10", sans-serif;
+    }
+.search i{
+    margin: 15px;
+}
+.top-ngo>*{
+    display: flex;
+   
+}
+.top-ngo img{        
+    height: 250px;
+    width: 400px;
+    justify-content: space-evenly;
+    
+}
+.HOME h1{
+    font-family: "Jersey 10", sans-serif;
+}
+.top-ngo{
+    display: flex;
+    justify-content: space-around;
+}
+.topdiv{
+    background-color: palevioletred;
+    border-radius: 20px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 20px;
+    
+    
+}
+.vision{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 0;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.vision p{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+
+}
+.who{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.we{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: grey;
+}
+.join{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 480px;
+    background-color: grey;
+
+}
+
+p{
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+.slogo{
+    display: flex;
+    height: 100px;
+    
+}
+.lg img{
+    height: 150px;
+    width: 150px;
+}
+a {
+    text-decoration: none;
+  }
+  
+.us{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: palevioletred;
+    height: 100px;
+
+}
+.details{
+    display:flex;
+    justify-content: space-around;
+}
+.founders{
+    border: 5px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+.founders>h2{
+    text-align: center;
+}
+
+.phone{
+    display:flex;
+    justify-content: space-around;
+}
+.number{
+    border: 5px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+}
+.number > h2{
+    text-align: center;
+}
+
+.topdiv{
+    display: flex;
+}
+.topdiv img{
+    height: 100px;
+    width: 100px;
+    
+}
+.us img{
+    height: 100px;
+    width: 100px;
+      
+}
+.ngo img{
+    height: 200px;
+    width: 100%;
+}
